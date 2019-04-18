@@ -1,0 +1,145 @@
+@import '~vuetify/src/stylus/settings/_colors'
+
+$custom-colors = {
+  primary: #4d648d,
+  secondary: #283655,
+  accent: #d0e1f9,
+  error: #cf3721,
+  info: #31a9b8,
+  success: #258039,
+  warning: #fecc5f,
+  gray: {
+    one: #fbfbfb,
+    two: #f6f6f6,
+    three: #f0f0f0,
+    four: #bebebe,
+    five: #868691,
+    six: #403f52,
+    seven: #3b3b3a,
+  }
+}
+
+$body-font-family = 'Dosis', 'Roboto', sans-serif
+$font-size-root = 14px
+$material-light = {
+  background: $custom-colors.gray.one,
+  text-fields: {
+    box: $custom-colors.gray.three,
+    box-hover: $custom-colors.gray.five
+  },
+  
+  input-bottom-line: $custom-colors.gray.five,
+  cards: $custom-colors.gray.one,
+  app-bar: $custom-colors.primary,
+
+  calendar: {
+    background-color: $custom-colors.gray.five,
+},
+
+  text: {
+    theme: $custom-colors.gray.seven,
+    primary: $custom-colors.gray.six,
+    secondary: $custom-colors.gray.five,
+    disabled: $custom-colors.gray.four,
+    link: $custom-colors.gray.seven,
+  link-hover: $custom-colors.gray.six
+},
+
+  status-bar: {
+  regular: $custom-colors.gray.five,
+  lights-out: $custom-colors.gray.three
+  },
+
+  chips: {
+  background: $custom-colors.accent,
+  color: $custom-colors.gray.seven,
+  },
+  
+  dividers: $custom-colors.gray.three,
+  
+  icons: {
+    active: $custom-colors.gray.seven,
+    inactive: $custom-colors.gray.four
+  },
+
+  inputs: {
+    box: $custom-colors.gray.two,
+    solo-inverted: $custom-colors.gray.three,
+    solo-inverted-focused: $custom-colors.gray.three,
+    solo-inverted-focused-text: $custom-colors.gray.seven,
+  },
+
+  buttons: {
+    disabled: rgba(#000, .26),
+    focused: rgba(#000, .12),
+    focused-alt: rgba(#fff, .6),
+    pressed: rgba(#000, .4)
+  },
+
+  expansion-panels: {
+    focus: $custom-colors.gray.five
+  },
+
+  list-tile: {
+    hover: rgba(#000, .04)
+  },
+
+  selection-controls: {
+    thumb: {
+      inactive: $grey.lighten-5,
+      disabled: $grey.lighten-1
+    },
+    track: {
+      inactive: rgba(#000, .38),
+      disabled: rgba(#000, .12)
+    }
+  },
+
+  slider: {
+    active: rgba(#000, .38),
+    inactive: rgba(#000, .26),
+    disabled: rgba(#000, .26),
+    discrete: #000
+  },
+
+  tabs: {
+    active: #f69454
+  },
+
+  stepper: {
+    active: rgba(#fff, 1),
+    completed: rgba(#000, 0.87),
+    hover: rgba(#000, 0.54)
+  },
+
+  table: {
+    active: $custom-colors.gray.three,
+    hover: $custom-colors.gray.four
+  },
+
+  picker: {
+    body: #fff,
+    clock: $grey.lighten-2,
+    indeterminateTime: $grey.lighten-1,
+    title: $grey.lighten-2
+  },
+
+  bg-color: $custom-colors.gray.one,
+  fg-color: $custom-colors.gray.seven,
+  text-color: $custom-colors.gray.seven,
+
+  primary-text-percent: .87,
+  secondary-text-percent: .54,
+  disabledORhints-text-percent: .38,
+  divider-percent: .12,
+  active-icon-percent: .54,
+  inactive-icon-percent: .38
+
+}
+
+.container .display-4, .container .display-3, .container .display-2, .container .display-1, .container .headline, .container .caption, .container .title, .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
+  font-family: 'Abel', 'Roboto', 'sans-serif'!important;
+}
+
+@import '~vuetify/src/stylus/main'
+@import '~vuetify/src/stylus/app'
