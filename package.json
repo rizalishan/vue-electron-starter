@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "rizalishan <rizalishan@gmail.com>",
   "license": null,
+  "description": "Vue + Electron + Vuetify + SQLite (with Seqlize & Sqlcipher) starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in. It's a fork of electron-vue by @SimulatedGREG",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
