@@ -1,4 +1,4 @@
-# munshee
+# Vue-Eelectron Starter
 
 > A simple module to manage user login, registration and other basic authentication tasks for Munshee.
 
